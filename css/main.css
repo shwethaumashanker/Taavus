@@ -1,0 +1,80 @@
+body {
+    font-family: 'Overpass';
+    font-style: normal;
+    padding-top: 100px;
+}
+
+.topic{
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.84375vw;
+  line-height: 100.5%;
+  /* or 62px */
+  
+  text-align: center;
+  
+  /* #0C0A3C */
+  
+  color: #0C0A3C;
+  }
+
+  .Responsive
+{
+  height: 50px;
+}
+
+.text1{
+  font-weight: normal;
+  line-height: 143%;
+}
+
+.text2{
+  font-weight: normal;
+  line-height: 143%;
+  opacity: 0.7;
+}
+
+.navbar-light,.navbar-nav{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 100.5%;
+    /* identical to box height, or 14px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.155em;
+    
+    /* #0C0A3C */
+    
+    color: black !important;
+    opacity: 1;
+    }
+    
+    .nav-link{
+      display: inline-block;
+      position: relative;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      color: black !important;
+    }
+    .nav-link:hover {
+      opacity: 1;
+    }
+    
+    .nav-link::before {
+      transition: 300ms;
+      height: 2px;
+      content: "";
+      position: absolute;
+      background-color: black;
+    }
+    
+    .nav-link-ltr::before {
+      width: 0%;
+      bottom: 5px;
+    }
+    
+    .nav-link-ltr:hover::before {
+      width: 100%;
+    }
